@@ -7,7 +7,7 @@ Traduzione non ufficiale creata con [Poedit](https://poedit.net/) seguendo le *b
 Questa traduzione è compatibile con **YOURLS 1.7+**.
 
 ## Installazione
- 1. scarica i file [.po](https://github.com/ggardin/YOURLS-it_IT/raw/master/it_IT.po) e [.mo](https://github.com/ggardin/YOURLS-it_IT/raw/master/it_IT.mo) presenti in questa repository
+ 1. scarica i [file](https://github.com/ggardin/YOURLS-it_IT/archive/master.zip) presenti in questa repository
  2. carica i file `it_IT.po` e `it_IT.mo` in `user/languages`
  3. in `user/config.php`, aggiungi o modifica la linea: `define( 'YOURLS_LANG', 'it_IT' );`
  4. la tua installazione ora è tradotta in italiano!
