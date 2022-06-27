@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS it_IT 1.7+\n"
-"POT-Creation-Date: 2021-02-22 12:09+0100\n"
-"PO-Revision-Date: 2022-01-07 00:42+0100\n"
+"POT-Creation-Date: 2022-04-22 20:19+0200\n"
+"PO-Revision-Date: 2022-06-27 22:19+0200\n"
 "Last-Translator: GG\n"
 "Language-Team: Giovanni Gardin\n"
 "Language: it_IT\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-KeywordsList: yourls__;yourls_e;yourls_s;yourls_se;"
 "yourls_esc_attr__;yourls_esc_html__;yourls_x;yourls_ex;yourls_esc_attr_x;"
 "yourls_esc_html_x;yourls_n:1,2;yourls_nx:1,2;yourls_n_noop:1,2;"
@@ -18,67 +18,21 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: admin/index.php:18 admin/index.php:48 admin/index.php:120
-#: front/includes/functions.php:133 front/includes/functions.php:144
-#: front/includes/vars.php:14 front/includes/vars.php:44
-#: front/includes/vars.php:116 includes/functions-html.php:240
-#: includes/functions-html.php:252
-msgid "URL"
-msgstr "URL"
-
-#: admin/index.php:20 admin/index.php:44 admin/index.php:116
-#: front/includes/functions.php:132 front/includes/functions.php:143
-#: front/includes/vars.php:16 front/includes/vars.php:40
-#: front/includes/vars.php:112 includes/functions-html.php:239
-#: includes/functions-html.php:251 includes/functions-html.php:507
-#: includes/functions-html.php:645 yourls-infos.php:217
-msgid "Short URL"
-msgstr "URL breve"
-
-#: admin/index.php:40 front/includes/functions.php:131
-#: front/includes/vars.php:36 includes/functions-html.php:238
-msgid "All fields"
-msgstr "Tutti i campi"
-
-#: admin/index.php:52 admin/index.php:124 front/includes/functions.php:134
-#: front/includes/functions.php:145 front/includes/vars.php:48
-#: front/includes/vars.php:120 includes/functions-html.php:241
-#: includes/functions-html.php:253 includes/functions-html.php:507
-msgid "Title"
-msgstr "Titolo"
-
-#: admin/index.php:56 admin/index.php:132 front/includes/vars.php:52
-#: front/includes/vars.php:128
-msgid "IP Address"
-msgstr "Indirizzo IP"
-
-#: admin/index.php:60 front/includes/vars.php:56
+#: admin/index.php:33
 #, php-format
 msgid "Searching for <strong>%1$s</strong> in <strong>%2$s</strong>."
 msgstr "Cercando <strong>%1$s</strong> in <strong>%2$s</strong>."
 
-#: admin/index.php:128 front/includes/functions.php:146
-#: front/includes/vars.php:124 includes/functions-html.php:254
-#: includes/functions-html.php:647
-msgid "Date"
-msgstr "Data"
-
-#: admin/index.php:136 front/includes/functions.php:148
-#: front/includes/vars.php:132 includes/functions-html.php:256
-#: includes/functions-html.php:649
-msgid "Clicks"
-msgstr "Click"
-
-#: admin/index.php:215 admin/index.php:226 admin/index.php:237
+#: admin/index.php:161 admin/index.php:172 admin/index.php:183
 #, php-format
 msgid "Short URL created, but could not redirect to %s !"
 msgstr "URL breve creato, ma non è stato possibile reindirizzare a %s !"
 
-#: admin/index.php:247
+#: admin/index.php:193
 msgid "Unknown \"Share\" bookmarklet"
 msgstr "Bookmarklet \"Condividi\" sconosciuto"
 
-#: admin/index.php:300
+#: admin/index.php:246
 #, php-format
 msgid ""
 "Display <strong>%1$s</strong> to <strong class=\"increment\">%2$s</strong> "
@@ -87,14 +41,14 @@ msgstr ""
 "Mostra da <strong>%1$s</strong> a <strong class=\"increment\">%2$s</strong> "
 "di <strong class=\"increment\">%3$s</strong> URL"
 
-#: admin/index.php:302
+#: admin/index.php:248
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
 msgstr[0] "contato <strong>1</strong> click"
 msgstr[1] "contati <strong>%s</strong> click"
 
-#: admin/index.php:305
+#: admin/index.php:251
 #, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
@@ -103,7 +57,7 @@ msgstr ""
 "Nel complesso sono stati tracciati <strong class=\"increment\">%1$s</strong> "
 "link e <strong>%2$s</strong> click!"
 
-#: admin/index.php:366 front/index.php:64
+#: admin/index.php:312
 msgid "No URL"
 msgstr "Nessun URL"
 
@@ -141,38 +95,38 @@ msgstr "Installa YOURLS"
 msgid "YOURLS Administration Page"
 msgstr "Pagina di amministrazione"
 
-#: admin/plugins.php:38
+#: admin/plugins.php:40
 msgid "Unsupported action"
 msgstr "Azione non supportata"
 
-#: admin/plugins.php:42
+#: admin/plugins.php:44
 msgid "No plugin specified, or not a valid plugin"
 msgstr "Nessun plugin specificato, o plugin non valido"
 
-#: admin/plugins.php:51
+#: admin/plugins.php:53
 msgid "Plugin has been activated"
 msgstr "Plugin attivato"
 
-#: admin/plugins.php:53
+#: admin/plugins.php:55
 msgid "Plugin has been deactivated"
 msgstr "Plugin disattivato"
 
-#: admin/plugins.php:58 includes/functions-html.php:771
+#: admin/plugins.php:60 includes/functions-html.php:781
 msgid "Manage Plugins"
 msgstr "Gestione plugin"
 
-#: admin/plugins.php:64
+#: admin/plugins.php:66
 msgid "Plugins"
 msgstr "Plugin"
 
-#: admin/plugins.php:71
+#: admin/plugins.php:73
 #, php-format
 msgid "%s plugin"
 msgid_plural "%s plugins"
 msgstr[0] "%s plugin"
 msgstr[1] "%s plugin"
 
-#: admin/plugins.php:75
+#: admin/plugins.php:77
 #, php-format
 msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
@@ -181,48 +135,48 @@ msgstr ""
 "Ci sono <strong>%1$s</strong> plugin installati, e <strong>%2$s</strong> "
 "plugin attivati"
 
-#: admin/plugins.php:80
+#: admin/plugins.php:82
 msgid "Plugin Name"
 msgstr "Nome"
 
-#: admin/plugins.php:81
+#: admin/plugins.php:83
 msgid "Version"
 msgstr "Versione"
 
-#: admin/plugins.php:82
+#: admin/plugins.php:84
 msgid "Description"
 msgstr "Descrizione"
 
-#: admin/plugins.php:83
+#: admin/plugins.php:85
 msgid "Author"
 msgstr "Autore"
 
-#: admin/plugins.php:84
+#: admin/plugins.php:86
 msgid "Action"
 msgstr "Azione"
 
-#: admin/plugins.php:109
+#: admin/plugins.php:111
 msgid "(no info)"
 msgstr "(nessuna informazione)"
 
-#: admin/plugins.php:119
+#: admin/plugins.php:121
 msgid "Deactivate"
 msgstr "Disattivare"
 
-#: admin/plugins.php:123
+#: admin/plugins.php:125
 msgid "Activate"
 msgstr "Attivare"
 
-#: admin/plugins.php:134
+#: admin/plugins.php:136
 #, php-format
 msgid "plugin file location: %s"
 msgstr "posizione plugin: %s"
 
-#: admin/plugins.php:151
+#: admin/plugins.php:153
 msgid "Toggle active/inactive plugins"
 msgstr "Mostra solo i plugin attivi/mostra tutti i plugin installati"
 
-#: admin/plugins.php:158
+#: admin/plugins.php:160
 msgid ""
 "If something goes wrong after you activate a plugin and you cannot use "
 "YOURLS or access this page, simply rename or delete its directory, or rename "
@@ -233,11 +187,11 @@ msgstr ""
 "del plugin, o rinominalo in modo che il suo nome non sia del tipo "
 "<code>plugin.php</code>."
 
-#: admin/plugins.php:160
+#: admin/plugins.php:162
 msgid "More plugins"
 msgstr "Plugin aggiuntivi"
 
-#: admin/plugins.php:162
+#: admin/plugins.php:164
 msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/awesome"
 "\">Plugin list</a>."
@@ -558,135 +512,6 @@ msgstr "La tua installazione è aggiornata all'ultima versione! "
 msgid "Go back to <a href=\"%s\">the admin interface</a>"
 msgstr "Torna al <a href=\"%s\">pannello di amministrazione</a>"
 
-#: front/includes/functions.php:129 includes/functions-html.php:236
-msgid "Search for"
-msgstr "Cerca"
-
-#: front/includes/functions.php:136 includes/functions-html.php:244
-msgid "Search in"
-msgstr "Cerca"
-
-#: front/includes/functions.php:138 includes/functions-html.php:246
-#, php-format
-msgid "Search for %1$s in %2$s"
-msgstr "Cerca %1$s in %2$s"
-
-#: front/includes/functions.php:147 includes/functions-html.php:242
-#: includes/functions-html.php:255 includes/functions-html.php:648
-msgid "IP"
-msgstr "IP"
-
-#: front/includes/functions.php:150 includes/functions-html.php:258
-msgid "Sort by"
-msgstr "Ordina per"
-
-#: front/includes/functions.php:153 includes/functions-html.php:261
-msgid "Ascending"
-msgstr "Crescente"
-
-#: front/includes/functions.php:154 includes/functions-html.php:262
-msgid "Descending"
-msgstr "Decrescente"
-
-#: front/includes/functions.php:156 includes/functions-html.php:264
-msgid "Sort order"
-msgstr "Ordine"
-
-#: front/includes/functions.php:158 includes/functions-html.php:266
-#, php-format
-msgid "Order by %1$s %2$s"
-msgstr "Ordina per %1$s %2$s"
-
-#: front/includes/functions.php:163 includes/functions-html.php:271
-msgid "Number of rows to show"
-msgstr "Numero di righe da visualizzare"
-
-#: front/includes/functions.php:164 includes/functions-html.php:272
-#, php-format
-msgid "Show %s rows"
-msgstr "Mostra %s righe"
-
-#: front/includes/functions.php:169 includes/functions-html.php:277
-msgid "more"
-msgstr "più"
-
-#: front/includes/functions.php:170 includes/functions-html.php:278
-msgid "less"
-msgstr "meno"
-
-#: front/includes/functions.php:172 includes/functions-html.php:280
-msgid "Show links with"
-msgstr "Mostra link con"
-
-#: front/includes/functions.php:173 includes/functions-html.php:281
-msgid "Number of clicks"
-msgstr "Numero di click"
-
-#: front/includes/functions.php:175 includes/functions-html.php:283
-#, php-format
-msgid "Show links with %1$s than %2$s clicks"
-msgstr "Mostra link con %1$s di %2$s click"
-
-#: front/includes/functions.php:180 includes/functions-html.php:288
-msgid "before"
-msgstr "prima"
-
-#: front/includes/functions.php:181 includes/functions-html.php:289
-msgid "after"
-msgstr "dopo"
-
-#: front/includes/functions.php:182 includes/functions-html.php:290
-msgid "between"
-msgstr "tra"
-
-#: front/includes/functions.php:184 includes/functions-html.php:292
-msgid "Show links created"
-msgstr "Mostra link creati"
-
-#: front/includes/functions.php:185 includes/functions-html.php:293
-msgid "Select a date"
-msgstr "Scegli una data"
-
-#: front/includes/functions.php:187 includes/functions-html.php:295
-msgid "Select an end date"
-msgstr "Scegli una data di fine"
-
-#: front/includes/functions.php:189 includes/functions-html.php:297
-#, php-format
-msgid "Show links created %1$s %2$s %3$s %4$s"
-msgstr "Mostra link creati %1$s %2$s %3$s %4$s"
-
-#: front/includes/functions.php:193 includes/functions-html.php:301
-msgid "Search"
-msgstr "Cerca"
-
-#: front/includes/functions.php:195 includes/functions-html.php:303
-msgid "Clear"
-msgstr "Cancella filtri"
-
-#: front/includes/functions.php:217 includes/functions-html.php:323
-#, php-format
-msgid "1 page"
-msgid_plural "%s pages"
-msgstr[0] "1 pagina"
-msgstr[1] "%s pagine"
-
-#: front/includes/functions.php:225 includes/functions-html.php:331
-msgid "Go to First Page"
-msgstr "Vai alla prima pagina"
-
-#: front/includes/functions.php:225 includes/functions-html.php:331
-msgid "&laquo; First"
-msgstr "&laquo; Prima"
-
-#: front/includes/functions.php:239 includes/functions-html.php:345
-msgid "Go to Last Page"
-msgstr "Vai all'ultima pagina"
-
-#: front/includes/functions.php:239 includes/functions-html.php:345
-msgid "Last &raquo;"
-msgstr "Ultima &raquo;"
-
 #: includes/Database/YDB.php:165
 msgid "Incorrect DB config, or could not connect to DB"
 msgstr ""
@@ -695,6 +520,40 @@ msgstr ""
 #: includes/Database/YDB.php:168 includes/class-mysql.php:16
 msgid "Fatal error"
 msgstr "Errore critico"
+
+#: includes/Views/AdminParams.php:59 includes/functions-html.php:239
+msgid "All fields"
+msgstr "Tutti i campi"
+
+#: includes/Views/AdminParams.php:60 includes/functions-html.php:240
+#: includes/functions-html.php:252 includes/functions-html.php:512
+#: includes/functions-html.php:650 yourls-infos.php:219
+msgid "Short URL"
+msgstr "URL breve"
+
+#: includes/Views/AdminParams.php:61 includes/functions-html.php:241
+#: includes/functions-html.php:253
+msgid "URL"
+msgstr "URL"
+
+#: includes/Views/AdminParams.php:62 includes/functions-html.php:242
+#: includes/functions-html.php:254 includes/functions-html.php:512
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/Views/AdminParams.php:63
+msgid "IP Address"
+msgstr "Indirizzo IP"
+
+#: includes/Views/AdminParams.php:64 includes/functions-html.php:255
+#: includes/functions-html.php:652
+msgid "Date"
+msgstr "Data"
+
+#: includes/Views/AdminParams.php:65 includes/functions-html.php:257
+#: includes/functions-html.php:654
+msgid "Clicks"
+msgstr "Click"
 
 #: includes/auth.php:53
 #, php-format
@@ -718,193 +577,322 @@ msgstr ""
 msgid "Incorrect DB config, please refer to documentation"
 msgstr "Configurazione del DB errata, verificare la documentazione"
 
-#: includes/functions-auth.php:38
+#: includes/functions-auth.php:41
 msgid "Logged out successfully"
 msgstr "Uscita avvenuta con successo"
 
-#: includes/functions-auth.php:113
+#: includes/functions-auth.php:118
 msgid "Invalid username or password"
 msgstr "Nome utente o password non validi"
 
-#: includes/functions-auth.php:115
+#: includes/functions-auth.php:120
 msgid "Please log in"
 msgstr "Effettua l'accesso"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:663
 msgid "Unauthorized action or expired link"
 msgstr "Azione non autorizzata o link scaduto"
 
-#: includes/functions-auth.php:630
+#: includes/functions-auth.php:663
 msgid "Error"
 msgstr "Errore"
 
-#: includes/functions-html.php:144
+#: includes/functions-html.php:145
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
 msgstr[0] "1 richiesta"
 msgstr[1] "%s richieste"
 
-#: includes/functions-html.php:153
+#: includes/functions-html.php:154
 #, php-format
 msgid "Powered by %s"
 msgstr "Basato su %s"
 
-#: includes/functions-html.php:186
+#: includes/functions-html.php:187
 msgid "Enter the URL"
 msgstr "Inserisci l'URL"
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Optional "
 msgstr "Opzionale "
 
-#: includes/functions-html.php:188
+#: includes/functions-html.php:189
 msgid "Custom short URL"
 msgstr "URL breve personalizzato"
 
-#: includes/functions-html.php:191
+#: includes/functions-html.php:192
 msgid "Shorten The URL"
 msgstr "Abbrevia l'URL"
 
-#: includes/functions-html.php:390
+#: includes/functions-html.php:237
+msgid "Search for"
+msgstr "Cerca"
+
+#: includes/functions-html.php:243 includes/functions-html.php:256
+#: includes/functions-html.php:653
+msgid "IP"
+msgstr "IP"
+
+#: includes/functions-html.php:245
+msgid "Search in"
+msgstr "Cerca"
+
+#: includes/functions-html.php:247
+#, php-format
+msgid "Search for %1$s in %2$s"
+msgstr "Cerca %1$s in %2$s"
+
+#: includes/functions-html.php:259
+msgid "Sort by"
+msgstr "Ordina per"
+
+#: includes/functions-html.php:262
+msgid "Ascending"
+msgstr "Crescente"
+
+#: includes/functions-html.php:263
+msgid "Descending"
+msgstr "Decrescente"
+
+#: includes/functions-html.php:265
+msgid "Sort order"
+msgstr "Ordine"
+
+#: includes/functions-html.php:267
+#, php-format
+msgid "Order by %1$s %2$s"
+msgstr "Ordina per %1$s %2$s"
+
+#: includes/functions-html.php:272
+msgid "Number of rows to show"
+msgstr "Numero di righe da visualizzare"
+
+#: includes/functions-html.php:273
+#, php-format
+msgid "Show %s rows"
+msgstr "Mostra %s righe"
+
+#: includes/functions-html.php:278
+msgid "more"
+msgstr "più"
+
+#: includes/functions-html.php:279
+msgid "less"
+msgstr "meno"
+
+#: includes/functions-html.php:281
+msgid "Show links with"
+msgstr "Mostra link con"
+
+#: includes/functions-html.php:282
+msgid "Number of clicks"
+msgstr "Numero di click"
+
+#: includes/functions-html.php:284
+#, php-format
+msgid "Show links with %1$s than %2$s clicks"
+msgstr "Mostra link con %1$s di %2$s click"
+
+#: includes/functions-html.php:289
+msgid "before"
+msgstr "prima"
+
+#: includes/functions-html.php:290
+msgid "after"
+msgstr "dopo"
+
+#: includes/functions-html.php:291
+msgid "between"
+msgstr "tra"
+
+#: includes/functions-html.php:293
+msgid "Show links created"
+msgstr "Mostra link creati"
+
+#: includes/functions-html.php:294
+msgid "Select a date"
+msgstr "Scegli una data"
+
+#: includes/functions-html.php:296
+msgid "Select an end date"
+msgstr "Scegli una data di fine"
+
+#: includes/functions-html.php:298
+#, php-format
+msgid "Show links created %1$s %2$s %3$s %4$s"
+msgstr "Mostra link creati %1$s %2$s %3$s %4$s"
+
+#: includes/functions-html.php:302
+msgid "Search"
+msgstr "Cerca"
+
+#: includes/functions-html.php:304
+msgid "Clear"
+msgstr "Cancella filtri"
+
+#: includes/functions-html.php:324
+#, php-format
+msgid "1 page"
+msgid_plural "%s pages"
+msgstr[0] "1 pagina"
+msgstr[1] "%s pagine"
+
+#: includes/functions-html.php:332
+msgid "Go to First Page"
+msgstr "Vai alla prima pagina"
+
+#: includes/functions-html.php:332
+msgid "&laquo; First"
+msgstr "&laquo; Prima"
+
+#: includes/functions-html.php:346
+msgid "Go to Last Page"
+msgstr "Vai all'ultima pagina"
+
+#: includes/functions-html.php:346
+msgid "Last &raquo;"
+msgstr "Ultima &raquo;"
+
+#: includes/functions-html.php:393
 msgid "Your short link"
 msgstr "Il tuo link breve"
 
-#: includes/functions-html.php:392 yourls-infos.php:548
+#: includes/functions-html.php:395 yourls-infos.php:550
 msgid "Quick Share"
 msgstr "Condivisione rapida"
 
-#: includes/functions-html.php:424
+#: includes/functions-html.php:427
 msgid "Long link"
 msgstr "Link lungo"
 
-#: includes/functions-html.php:426 includes/functions-html.php:542
-#: includes/functions-html.php:543
+#: includes/functions-html.php:429 includes/functions-html.php:547
+#: includes/functions-html.php:548
 msgid "Stats"
 msgstr "Statistiche"
 
-#: includes/functions-html.php:440
+#: includes/functions-html.php:443
 msgid "Share with"
 msgstr "Condividi con"
 
-#: includes/functions-html.php:441
+#: includes/functions-html.php:444
 msgid "Tweet this!"
 msgstr "Twittalo!"
 
-#: includes/functions-html.php:442
+#: includes/functions-html.php:445
 msgid "Share on Facebook"
 msgstr "Condividi su Facebook"
 
-#: includes/functions-html.php:507 yourls-infos.php:235
+#: includes/functions-html.php:512 yourls-infos.php:237
 msgid "Long URL"
 msgstr "URL lungo"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Save"
 msgstr "Salva"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Save new values"
 msgstr "Salva nuovi valori"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Cancel"
 msgstr "Annulla"
 
-#: includes/functions-html.php:507
+#: includes/functions-html.php:512
 msgid "Cancel editing"
 msgstr "Annulla modifiche"
 
-#: includes/functions-html.php:509
+#: includes/functions-html.php:514
 msgid "Error, URL not found"
 msgstr "Errore, URL non trovato"
 
-#: includes/functions-html.php:548 includes/functions-html.php:549
-#: yourls-infos.php:245 yourls-infos.php:546
+#: includes/functions-html.php:553 includes/functions-html.php:554
+#: yourls-infos.php:247 yourls-infos.php:548
 msgid "Share"
 msgstr "Condividi"
 
-#: includes/functions-html.php:555 includes/functions-html.php:556
+#: includes/functions-html.php:560 includes/functions-html.php:561
 msgid "Edit"
 msgstr "Modifica"
 
-#: includes/functions-html.php:562 includes/functions-html.php:563
+#: includes/functions-html.php:567 includes/functions-html.php:568
 msgid "Delete"
 msgstr "Elimina"
 
-#: includes/functions-html.php:584
+#: includes/functions-html.php:589
 msgid "Not a common link"
 msgstr "Non è un link comune"
 
-#: includes/functions-html.php:646
+#: includes/functions-html.php:651
 msgid "Original URL"
 msgstr "URL originale"
 
-#: includes/functions-html.php:650
+#: includes/functions-html.php:655
 msgid "Actions"
 msgstr "Azioni"
 
-#: includes/functions-html.php:717
+#: includes/functions-html.php:722
 msgid "Username"
 msgstr "Nome utente"
 
-#: includes/functions-html.php:721
+#: includes/functions-html.php:726
 msgid "Password"
 msgstr "Password"
 
-#: includes/functions-html.php:728
+#: includes/functions-html.php:734
 msgid "Login"
 msgstr "Accedi"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:759
 #, php-format
 msgid "Hello <strong>%s</strong>"
 msgstr "Ciao <strong>%s</strong>"
 
-#: includes/functions-html.php:749
+#: includes/functions-html.php:759
 msgid "Logout"
 msgstr "Esci"
 
-#: includes/functions-html.php:753
+#: includes/functions-html.php:763
 msgid "Help"
 msgstr "Aiuto"
 
-#: includes/functions-html.php:760
+#: includes/functions-html.php:770
 msgid "Go to the admin interface"
 msgstr "Pannello di amministrazione"
 
-#: includes/functions-html.php:761
+#: includes/functions-html.php:771
 msgid "Admin interface"
 msgstr "Amministrazione"
 
-#: includes/functions-html.php:767
+#: includes/functions-html.php:777
 msgid "Tools"
 msgstr "Strumenti"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:861
 #, php-format
 msgid "Page \"%1$s\" not found"
 msgstr "Pagina \"%1$s\" non trovata"
 
-#: includes/functions-html.php:851
+#: includes/functions-html.php:861
 msgid "Not found"
 msgstr "Non trovato"
 
-#: includes/functions-html.php:897 includes/functions-html.php:902
+#: includes/functions-html.php:907 includes/functions-html.php:912
 msgid "Today"
 msgstr "Oggi"
 
-#: includes/functions-html.php:898 includes/functions-html.php:903
+#: includes/functions-html.php:908 includes/functions-html.php:913
 msgid "Close"
 msgstr "Chiudi"
 
-#: includes/functions-html.php:918
+#: includes/functions-html.php:931
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr ""
 "<a href=\"%s\">versione YOURLS %s</a> disponibile. Per favore aggiorna!"
 
-#: includes/functions-html.php:956
+#: includes/functions-html.php:946
 msgid "Drag to your toolbar!"
 msgstr "Trascina sulla toolbar!"
 
@@ -1149,41 +1137,41 @@ msgstr ","
 msgid "ltr"
 msgstr "ltr"
 
-#: includes/functions-plugins.php:475
+#: includes/functions-plugins.php:618
 msgid "Could not find and deactivate plugin :"
 msgid_plural "Could not find and deactivate plugins :"
 msgstr[0] "Non è stato possibile individuare e disattivare il plugin:"
 msgstr[1] "Non è stato possibile individuare e disattivare i plugin:"
 
-#: includes/functions-plugins.php:511
+#: includes/functions-plugins.php:658
 msgid "Not a valid plugin file"
 msgstr "File plugin non valido"
 
-#: includes/functions-plugins.php:517
+#: includes/functions-plugins.php:664
 msgid "Plugin already activated"
 msgstr "Plugin già attivato"
 
-#: includes/functions-plugins.php:527
+#: includes/functions-plugins.php:670 includes/functions-plugins.php:719
 #, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
 "Il plugin ha generato un output inaspettato. Errore: <br/><pre>%s</pre>"
 
-#: includes/functions-plugins.php:552
+#: includes/functions-plugins.php:710
 msgid "Plugin not active"
 msgstr "Plugin non attivo"
 
-#: includes/functions-plugins.php:628
+#: includes/functions-plugins.php:804
 msgid ""
 "This page does not exist. Maybe a plugin you thought was activated is "
 "inactive?"
 msgstr "Questa pagina non esiste. Forse uno dei plugin è disattivato?"
 
-#: includes/functions-plugins.php:628
+#: includes/functions-plugins.php:804
 msgid "Invalid link"
 msgstr "Link non valido"
 
-#: includes/functions-plugins.php:634
+#: includes/functions-plugins.php:810
 msgid ""
 "This page cannot be displayed because the displaying function is not "
 "callable."
@@ -1191,55 +1179,55 @@ msgstr ""
 "La pagina non pu&ograve; essere visualizzata perch&eacute; la funzione di "
 "visualizzazione non &egrave; richiamabile."
 
-#: includes/functions-plugins.php:634
+#: includes/functions-plugins.php:810
 msgid "Invalid code"
 msgstr "Codice non valido"
 
-#: includes/functions-shorturls.php:38
+#: includes/functions-shorturls.php:55
 msgid "Missing or malformed URL"
 msgstr "URL mancante o corrotto"
 
-#: includes/functions-shorturls.php:52
+#: includes/functions-shorturls.php:69
 msgid "URL is a short URL"
 msgstr "L'URL è un URL breve"
 
-#: includes/functions-shorturls.php:84
+#: includes/functions-shorturls.php:83
+#, php-format
+msgid "%s already exists in database (short URL: %s)"
+msgstr "%s esiste già nel database (URL abbreviato: %s)"
+
+#: includes/functions-shorturls.php:110
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
 msgstr "L'URL breve %s esiste già o è riservato"
 
-#: includes/functions-shorturls.php:90 includes/functions-shorturls.php:112
+#: includes/functions-shorturls.php:140
 #, php-format
 msgid "%s added to database"
 msgstr "%s aggiunto al database"
 
-#: includes/functions-shorturls.php:120
+#: includes/functions-shorturls.php:149
 msgid "Error saving url to database"
 msgstr "Errore nel salvataggio dell'URL nel database"
 
-#: includes/functions-shorturls.php:137
-#, php-format
-msgid "%s already exists in database"
-msgstr "%s esiste già nel database"
-
-#: includes/functions-shorturls.php:309
+#: includes/functions-shorturls.php:324
 msgid "Long URL or Short URL cannot be blank"
 msgstr "L'URL lungo o l'URL corto non possono essere vuoti"
 
-#: includes/functions-shorturls.php:339
+#: includes/functions-shorturls.php:360
 msgid "Link updated in database"
 msgstr "Link aggiornato nel database"
 
-#: includes/functions-shorturls.php:342
+#: includes/functions-shorturls.php:363
 #, php-format
 msgid "Error updating %s (Short URL: %s)"
 msgstr "Errore nell'aggiornare %s (URL breve: %s)"
 
-#: includes/functions-shorturls.php:348
+#: includes/functions-shorturls.php:369
 msgid "URL or keyword already exists in database"
 msgstr "L'URL o la parola chiave sono già presenti nel database"
 
-#: includes/functions.php:331
+#: includes/functions.php:372
 #, php-format
 msgid ""
 "if you are not redirected after 10 seconds, please <a href=\"%s\">click "
@@ -1247,34 +1235,34 @@ msgid ""
 msgstr ""
 "se non vieni reindirizzato entro 10 secondi, <a href=\"%s\">clicca qui</a>"
 
-#: includes/functions.php:340
+#: includes/functions.php:381
 #, php-format
 msgid "Please <a href=\"%s\">click here</a>"
 msgstr "Per favore <a href=\"%s\">clicca qui</a>"
 
-#: includes/functions.php:584
+#: includes/functions.php:630
 msgid "Too many URLs added too fast. Slow down please."
 msgstr "Troppi URL aggiunti troppo velocemente. Rallenta Speedy Gonzales!"
 
-#: includes/functions.php:584
+#: includes/functions.php:630
 msgid "Too Many Requests"
 msgstr "Troppe richieste"
 
-#: includes/functions.php:1006
+#: includes/functions.php:1057
 msgid "Service temporarily unavailable"
 msgstr "Servizio temporaneamente non disponibile"
 
-#: includes/functions.php:1007
+#: includes/functions.php:1058
 msgid "Our service is currently undergoing scheduled maintenance."
 msgstr "Il servizio è attualmente sottoposto a manutenzione programmata."
 
-#: includes/functions.php:1008
+#: includes/functions.php:1059
 msgid ""
 "Things should not last very long, thank you for your patience and please "
 "excuse the inconvenience"
 msgstr "I sistemi torneranno online al più presto. Ci scusiamo per il disagio"
 
-#: includes/functions.php:1134
+#: includes/functions.php:1185
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
@@ -1282,7 +1270,7 @@ msgstr ""
 "%1$s è <strong>deprecato</strong> a partire dalla versione %2$s! In "
 "alternativa usa %3$s."
 
-#: includes/functions.php:1136
+#: includes/functions.php:1187
 #, php-format
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
@@ -1291,172 +1279,172 @@ msgstr ""
 "%1$s è <strong>deprecato</strong> a partire dalla versione %2$s. Non sono "
 "disponibili metodi alternativi."
 
-#: yourls-infos.php:210
+#: yourls-infos.php:212
 #, php-format
 msgid "Statistics for %s"
 msgstr "Statistiche per %s"
 
-#: yourls-infos.php:233
+#: yourls-infos.php:235
 msgid "Aggregate stats for duplicate short URLs"
 msgstr "Statistiche aggregate per URL brevi duplicati"
 
-#: yourls-infos.php:241 yourls-infos.php:252
+#: yourls-infos.php:243 yourls-infos.php:254
 msgid "Traffic statistics"
 msgstr "Statistiche di traffico"
 
-#: yourls-infos.php:242 yourls-infos.php:439
+#: yourls-infos.php:244 yourls-infos.php:441
 msgid "Traffic location"
 msgstr "Località del traffico"
 
-#: yourls-infos.php:243 yourls-infos.php:476
+#: yourls-infos.php:245 yourls-infos.php:478
 msgid "Traffic sources"
 msgstr "Origini di traffico"
 
-#: yourls-infos.php:260 yourls-infos.php:300
+#: yourls-infos.php:262 yourls-infos.php:302
 msgid "Last 24 hours"
 msgstr "Ultime 24 ore"
 
-#: yourls-infos.php:261 yourls-infos.php:302
+#: yourls-infos.php:263 yourls-infos.php:304
 msgid "Last 7 days"
 msgstr "Ultimi 7 giorni"
 
-#: yourls-infos.php:262 yourls-infos.php:304
+#: yourls-infos.php:264 yourls-infos.php:306
 msgid "Last 30 days"
 msgstr "Ultimi 30 giorni"
 
-#: yourls-infos.php:263 yourls-infos.php:306
+#: yourls-infos.php:265 yourls-infos.php:308
 msgid "All time"
 msgstr "Tutto"
 
-#: yourls-infos.php:315
+#: yourls-infos.php:317
 #, php-format
 msgid "Number of hits : %s"
 msgstr "Numero di visite: %s"
 
-#: yourls-infos.php:338
+#: yourls-infos.php:340
 msgid "Historical click count"
 msgstr "Contatore click complessivi"
 
-#: yourls-infos.php:345
+#: yourls-infos.php:347
 #, php-format
 msgid "about 1 day ago"
 msgid_plural "about %s days ago"
 msgstr[0] "circa 1 giorno fa"
 msgstr[1] "circa %s giorni fa"
 
-#: yourls-infos.php:348
+#: yourls-infos.php:350
 #, php-format
 msgid "Short URL created on %s"
 msgstr "URL breve creato il %s"
 
-#: yourls-infos.php:363 yourls-infos.php:370
+#: yourls-infos.php:365 yourls-infos.php:372
 #, php-format
 msgid "%s per day"
 msgstr "%s per giorno"
 
-#: yourls-infos.php:366
+#: yourls-infos.php:368
 #, php-format
 msgid "%s per hour"
 msgstr "%s per ora"
 
-#: yourls-infos.php:373
+#: yourls-infos.php:375
 #, php-format
 msgid "%s hit"
 msgid_plural "%s hits"
 msgstr[0] "%s visita"
 msgstr[1] "%s visite"
 
-#: yourls-infos.php:380
+#: yourls-infos.php:382
 msgid "Best day"
 msgstr "Giorno migliore"
 
-#: yourls-infos.php:387
+#: yourls-infos.php:389
 #, php-format
 msgid "<strong>%1$s</strong> hit on %2$s"
 msgid_plural "<strong>%1$s</strong> hits on %2$s"
 msgstr[0] "<strong>%1$s</strong> visite il %2$s"
 msgstr[1] "<strong>%1$s</strong> hits on %2$s"
 
-#: yourls-infos.php:388 yourls-infos.php:450
+#: yourls-infos.php:390 yourls-infos.php:452
 msgid "Click for more details"
 msgstr "Clicca per maggiori dettagli"
 
-#: yourls-infos.php:394 yourls-infos.php:397
+#: yourls-infos.php:396 yourls-infos.php:399
 #, php-format
 msgid "Year %s"
 msgstr "Anno %s"
 
-#: yourls-infos.php:416 yourls-infos.php:454
+#: yourls-infos.php:418 yourls-infos.php:456
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
 msgstr[0] "1 visita"
 msgstr[1] "%s visite"
 
-#: yourls-infos.php:433
+#: yourls-infos.php:435
 msgid "No traffic yet. Get some clicks first!"
 msgstr "Niente traffico per ora. Attendi i primi click!"
 
-#: yourls-infos.php:448
+#: yourls-infos.php:450
 msgid "Top 5 countries"
 msgstr "Migliori 5 nazioni"
 
-#: yourls-infos.php:461
+#: yourls-infos.php:463
 msgid "Overall traffic"
 msgstr "Traffico complessivo"
 
-#: yourls-infos.php:470
+#: yourls-infos.php:472
 msgid "No country data."
 msgstr "Dati località mancanti."
 
-#: yourls-infos.php:485
+#: yourls-infos.php:487
 msgid "Referrer shares"
 msgstr "Condivisioni referral"
 
-#: yourls-infos.php:488 yourls-infos.php:490
+#: yourls-infos.php:490 yourls-infos.php:492
 msgid "Others"
 msgstr "Altri"
 
-#: yourls-infos.php:492 yourls-infos.php:525
+#: yourls-infos.php:494 yourls-infos.php:527
 msgid "Referrers"
 msgstr "Referrer"
 
-#: yourls-infos.php:499 yourls-infos.php:509
+#: yourls-infos.php:501 yourls-infos.php:511
 msgid "(details)"
 msgstr "(dettagli)"
 
-#: yourls-infos.php:509
+#: yourls-infos.php:511
 msgid "Various:"
 msgstr "Varie:"
 
-#: yourls-infos.php:523
+#: yourls-infos.php:525
 msgid "Direct vs Referrer Traffic"
 msgstr "Traffico diretto vs Referral"
 
-#: yourls-infos.php:525
+#: yourls-infos.php:527
 msgid "Direct"
 msgstr "Diretto"
 
-#: yourls-infos.php:527
+#: yourls-infos.php:529
 msgid "Direct traffic:"
 msgstr "Traffico diretto:"
 
-#: yourls-infos.php:527 yourls-infos.php:528
+#: yourls-infos.php:529 yourls-infos.php:530
 #, php-format
 msgid "<strong>%s</strong> hit"
 msgid_plural "<strong>%s</strong> hits"
 msgstr[0] "<strong>%s</strong> visite"
 msgstr[1] "<strong>%s</strong> hits"
 
-#: yourls-infos.php:528
+#: yourls-infos.php:530
 msgid "Referrer traffic:"
 msgstr "Traffico referral:"
 
-#: yourls-infos.php:537
+#: yourls-infos.php:539
 msgid "No referrer data."
 msgstr "Dati referral mancanti."
 
-#: yourls-infos.php:548
+#: yourls-infos.php:550
 msgid "Short link"
 msgstr "Link breve"
 
